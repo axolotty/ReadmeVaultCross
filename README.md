@@ -28,7 +28,7 @@ Application desktop multiplateforme pour stocker, organiser et consulter les REA
 |---|---|
 | **Import GitHub** | Colle une URL de dépôt pour récupérer le README automatiquement via l'API GitHub |
 | **Import en masse** | Importe plusieurs READMEs depuis une organisation ou une liste de repos GitHub |
-| **Import local** | Ouvre un fichier `.md` / `.txt` — le titre est détecté automatiquement |
+| **Import local** | Ouvre un fichier `.md` / `.txt` - le titre est détecté automatiquement |
 | **Rendu Markdown** | Affichage rendu avec coloration syntaxique des blocs de code (highlight.js) |
 | **Vue brute** | Accès au contenu Markdown source |
 | **Épingler** | Clic droit → Épingler pour garder un projet en tête de liste |
@@ -161,7 +161,7 @@ ReadmeVaultCross/
 │
 ├── .github/
 │   └── workflows/
-│       └── build.yml           # CI/CD — builds macOS / Windows / Linux
+│       └── build.yml           # CI/CD - builds macOS / Windows / Linux
 │
 ├── index.html                  # Point d'entrée HTML
 ├── vite.config.ts              # Configuration Vite
@@ -180,8 +180,8 @@ Les données sont stockées localement via les commandes Rust `save_projects` / 
 | Windows | `%APPDATA%\com.readmevault.app\` |
 | Linux | `~/.local/share/com.readmevault.app/` |
 
-- **`projects.json`** — métadonnées de tous les projets (sans le contenu README)
-- **`readmes/<id>.md`** — contenu README de chaque projet (fichier séparé)
+- **`projects.json`** - métadonnées de tous les projets (sans le contenu README)
+- **`readmes/<id>.md`** - contenu README de chaque projet (fichier séparé)
 
 ---
 
@@ -217,7 +217,7 @@ git tag v1.0.0
 git push origin v1.0.0
 ```
 
-La release est créée en **draft** — vérifier les artefacts avant de la publier manuellement sur GitHub.
+La release est créée en **draft** - vérifier les artefacts avant de la publier manuellement sur GitHub.
 
 ---
 
@@ -242,4 +242,4 @@ Ouvre une [issue GitHub](https://github.com/Axolotty/ReadmeVaultCross/issues) av
 
 ## Licence
 
-[MIT](LICENSE) — © 2025 Valentin R. (Axolotty)
+[MIT](LICENSE) - © 2025 Valentin R. (Axolotty)
